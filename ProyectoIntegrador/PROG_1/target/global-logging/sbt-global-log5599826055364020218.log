@@ -1,0 +1,220 @@
+[debug] > Exec(;reload; set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers" ;*/*:dumpStructureTo C:/Users/0zzda/AppData/Local/Temp/sbt-structure.xml; session clear-all, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.7 (Oracle Corporation Java 17)
+[debug]       Load.loadUnit: plugins took 37.8638ms
+[debug]       Load.loadUnit: defsScala took 0.0045ms
+[debug] [Loading] Scanning directory C:\Users\0zzda\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\0zzda\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 4.7109 ms
+[debug]           Load.resolveProject(global-plugins) took 1.589ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\0zzda\.sbt\1.0\plugins, plugins: List(<none>))) took 7.1559ms
+[debug] [Loading] Done in C:\Users\0zzda\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 9.7417ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.0104ms
+[debug]     Load.loadUnit(file:/C:/Users/0zzda/.sbt/1.0/plugins/, ...) took 48.8406ms
+[debug]   Load.apply: load took 50.4216ms
+[debug]   Load.apply: resolveProjects took 0.1393ms
+[debug]   Load.apply: finalTransforms took 19.4273ms
+[debug]   Load.apply: config.delegates took 0.4913ms
+[debug]   Load.apply: Def.make(settings)... took 102.0204ms
+[debug]   Load.apply: structureIndex took 54.5302ms
+[debug]   Load.apply: mkStreams took 0.0035ms
+[info] loading global plugins from C:\Users\0zzda\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 825.2339ms
+[debug]           Load.loadUnit: plugins took 38.5055ms
+[debug]           Load.loadUnit: defsScala took 0.0062ms
+[debug] [Loading] Scanning directory C:\Users\0zzda\IdeaProjects\PROG_1\project
+[debug]             Load.loadUnit: mkEval took 0.2719ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\0zzda\IdeaProjects\PROG_1\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.0688 ms
+[info] loading settings for project prog_1-build from idea.sbt ...
+[debug]               Load.resolveProject(prog_1-build) took 2.1116ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id prog_1-build, base: C:\Users\0zzda\IdeaProjects\PROG_1\project, plugins: List(<none>))) took 5.9435ms
+[debug] [Loading] Done in C:\Users\0zzda\IdeaProjects\PROG_1\project, returning: (prog_1-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 34.106ms
+[debug]           Load.loadUnit: cleanEvalClasses took 9.3804ms
+[debug]         Load.loadUnit(file:/C:/Users/0zzda/IdeaProjects/PROG_1/project/, ...) took 83.5223ms
+[debug]       Load.apply: load took 86.4258ms
+[debug]       Load.apply: resolveProjects took 0.1645ms
+[debug]       Load.apply: finalTransforms took 19.6044ms
+[debug]       Load.apply: config.delegates took 0.571ms
+[debug]       Load.apply: Def.make(settings)... took 103.615ms
+[debug]       Load.apply: structureIndex took 38.2143ms
+[debug]       Load.apply: mkStreams took 0.003ms
+[info] loading project definition from C:\Users\0zzda\IdeaProjects\PROG_1\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 554.7136ms
+[debug]     Load.loadUnit: defsScala took 0.0037ms
+[debug] [Loading] Scanning directory C:\Users\0zzda\IdeaProjects\PROG_1
+[debug]       Load.loadUnit: mkEval took 0.3984ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\0zzda\IdeaProjects\PROG_1, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 3.5122 ms
+[info] loading settings for project prog_1 from build.sbt ...
+[debug]         Load.resolveProject(prog_1) took 48.2534ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id prog_1, base: C:\Users\0zzda\IdeaProjects\PROG_1, plugins: List(<none>))) took 52.7175ms
+[debug] [Loading] Done in C:\Users\0zzda\IdeaProjects\PROG_1, returning: (prog_1)
+[debug]     Load.loadUnit: loadedProjectsRaw took 247.8928ms
+[debug]     Load.loadUnit: cleanEvalClasses took 39.691ms
+[debug]   Load.loadUnit(file:/C:/Users/0zzda/IdeaProjects/PROG_1/, ...) took 843.539ms
+[debug] Load.apply: load took 845.1175ms
+[debug] Load.apply: resolveProjects took 0.1524ms
+[debug] Load.apply: finalTransforms took 29.9421ms
+[debug] Load.apply: config.delegates took 0.5613ms
+[debug] Load.apply: Def.make(settings)... took 94.1861ms
+[debug] Load.apply: structureIndex took 28.2273ms
+[debug] Load.apply: mkStreams took 0.0022ms
+[info] set current project to PROG_1 (in build file:/C:/Users/0zzda/IdeaProjects/PROG_1/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(set _root_.org.jetbrains.sbt.StructureKeys.sbtStructureOptions in Global := "download resolveClassifiers", None, None)
+[info] Defining Global / sbtStructureOptions
+[info] The new value will be used by Global / ssOptions
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Global / ssOptions
+[info] Reapplying settings...
+[info] set current project to PROG_1 (in build file:/C:/Users/0zzda/IdeaProjects/PROG_1/)
+[debug] > Exec(*/*:dumpStructureTo C:/Users/0zzda/AppData/Local/Temp/sbt-structure.xml, None, None)
+[debug] Evaluating tasks: Global / dumpStructureTo
+[warn] sbt 0.13 shell syntax is deprecated; use slash syntax instead: Global / dumpStructureTo
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] 
+[warn] 	Note: Unresolved dependencies path:
+[error] sbt.librarymanagement.ResolveException: Error downloading com.typesafe.slick:slick-hikaricp_2.13:3.2.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\0zzda\.ivy2\localcom.typesafe.slick\slick-hikaricp_2.13\3.2.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.2.1/slick-hikaricp_2.13-3.2.1.pom
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3678)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[error] sbt.librarymanagement.ResolveException: Error downloading com.typesafe.slick:slick-hikaricp_2.13:3.2.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\0zzda\.ivy2\localcom.typesafe.slick\slick-hikaricp_2.13\3.2.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.2.1/slick-hikaricp_2.13-3.2.1.pom
+[error] 	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
+[error] 	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
+[error] 	at scala.util.Either$LeftProjection.map(Either.scala:573)
+[error] 	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)
+[error] 	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+[error] 	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:59)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:133)
+[error] 	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:146)
+[error] 	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:146)
+[error] 	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:127)
+[error] 	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+[error] 	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:160)
+[error] 	at sbt.Classpaths$.$anonfun$updateTask0$1(Defaults.scala:3678)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+[error] 	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+[error] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+[error] 	at java.base/java.lang.Thread.run(Thread.java:833)
+[error] (update) sbt.librarymanagement.ResolveException: Error downloading com.typesafe.slick:slick-hikaricp_2.13:3.2.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\0zzda\.ivy2\localcom.typesafe.slick\slick-hikaricp_2.13\3.2.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.2.1/slick-hikaricp_2.13-3.2.1.pom
+[error] (ssExtractDependencies) sbt.librarymanagement.ResolveException: Error downloading com.typesafe.slick:slick-hikaricp_2.13:3.2.1
+[error]   Not found
+[error]   Not found
+[error]   not found: C:\Users\0zzda\.ivy2\localcom.typesafe.slick\slick-hikaricp_2.13\3.2.1\ivys\ivy.xml
+[error]   not found: https://repo1.maven.org/maven2/com/typesafe/slick/slick-hikaricp_2.13/3.2.1/slick-hikaricp_2.13-3.2.1.pom
+[error] Total time: 7 s, completed Jan 28, 2022, 3:44:48 PM
+[debug] > Exec(idea-shell, None, None)
+[debug] > Exec(, None, None)
+[debug] > Exec(idea-shell, None, None)
